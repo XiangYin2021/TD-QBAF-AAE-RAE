@@ -1,0 +1,13 @@
+arg(A, 0.5).
+arg(B, 0.5).
+arg(C, 0.5).
+
+
+sup(A, B).
+sup(B, C).
+sup(C, A).
+
+
+sup(B, A).
+sup(A, C).
+sup(C, B).

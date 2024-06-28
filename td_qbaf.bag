@@ -1,0 +1,53 @@
+arg(s0, 0.5).
+arg(s1, 0.5).
+arg(s2, 0.5).
+arg(s3, 0.5).
+arg(s4, 0.5).
+arg(s5, 0.5).
+arg(s6, 0.5).
+arg(s7, 0.5).
+arg(s8, 0.5).
+arg(s9, 0.5).
+arg(s10, 0.5).
+
+arg(c0, 0.0).
+arg(c1, 0.0).
+arg(c2, 0.0).
+arg(c3, 0.0).
+arg(c4, 0.0).
+arg(c5, 0.0).
+
+att(c0, c1).
+att(c1, c0).
+att(c2, c3).
+att(c3, c2).
+att(c4, c5).
+att(c5, c4).
+
+sup(s0, c0).
+sup(s1, c0).
+sup(s2, c0).
+sup(s3, c1).
+sup(s3, c2).
+sup(s4, c2).
+sup(s5, c2).
+sup(s6, c3).
+sup(s6, c4).
+sup(s7, c5).
+sup(s8, c5).
+sup(s9, c5).
+sup(s10, c5).
+
+sup(c0, s0).
+sup(c0, s1).
+sup(c0, s2).
+sup(c1, s3).
+sup(c2, s3).
+sup(c2, s4).
+sup(c2, s5).
+sup(c3, s6).
+sup(c4, s6).
+sup(c5, s7).
+sup(c5, s8).
+sup(c5, s9).
+sup(c5, s10).
