@@ -1,0 +1,15 @@
+arg(A, 0.5).
+arg(B, 0.5).
+arg(C, 0.5).
+arg(D, 0.5).
+arg(E, 0.5).
+arg(F, 0.5).
+arg(G, 0.5).
+arg(H, 0.5).
+sup(B, A).
+sup(C, A).
+att(D, A).
+att(E, B).
+att(F, D).
+att(G, F).
+att(H, F).
