@@ -25,29 +25,36 @@ att(c4, c5).
 att(c5, c4).
 
 sup(s0, c0).
-sup(s1, c0).
-sup(s2, c0).
-sup(s3, c1).
-sup(s3, c2).
-sup(s4, c2).
-sup(s5, c2).
-sup(s6, c3).
-sup(s6, c4).
-sup(s7, c5).
-sup(s8, c5).
-sup(s9, c5).
-sup(s10, c5).
-
 sup(c0, s0).
+sup(s1, c0).
 sup(c0, s1).
+sup(s2, c0).
 sup(c0, s2).
+
+
+sup(s3, c1).
 sup(c1, s3).
+sup(s7, c1).
+sup(c1, s7).
+
+sup(s3, c2).
 sup(c2, s3).
+sup(s4, c2).
 sup(c2, s4).
+sup(s5, c2).
 sup(c2, s5).
+
+sup(s6, c3).
 sup(c3, s6).
+
+sup(s6, c4).
 sup(c4, s6).
+
+sup(s7, c5).
 sup(c5, s7).
+sup(s8, c5).
 sup(c5, s8).
+sup(s9, c5).
 sup(c5, s9).
+sup(s10, c5).
 sup(c5, s10).
